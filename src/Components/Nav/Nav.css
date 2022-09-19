@@ -1,0 +1,30 @@
+.Nav{
+    position: relative;
+    width: 17%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 'Poppins';
+    border-right: .1px solid rgb(0, 0, 0, 0.1);
+}
+.Nav h2{
+    margin: 3rem;
+}
+.Nav a{
+    position: relative;
+    text-decoration: none;
+    margin: .6rem 3rem;
+    /* left: 20%; */
+    color: black;
+    font-size: large;
+}
+.Nav .user{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    bottom: 5%;
+    left: 10%;
+}
+.Nav .user img{
+    margin-right: 1rem;
+}
