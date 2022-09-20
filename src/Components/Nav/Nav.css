@@ -1,6 +1,6 @@
 .Nav{
     position: relative;
-    width: 17%;
+    width: 16%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,15 +8,23 @@
     border-right: .1px solid rgb(0, 0, 0, 0.1);
 }
 .Nav h2{
-    margin: 3rem;
+    position: relative;
+    left: 10%;
+    margin: 2rem 0;
+}
+.Navlist{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    left: 10%;
+    margin: .6rem 0;
+
 }
 .Nav a{
-    position: relative;
     text-decoration: none;
-    margin: .6rem 3rem;
-    /* left: 20%; */
     color: black;
     font-size: large;
+    margin-left: 10%;
 }
 .Nav .user{
     position: absolute;

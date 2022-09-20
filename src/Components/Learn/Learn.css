@@ -1,0 +1,79 @@
+.Learn{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    top: 3%;
+    font: 'Poppins';
+
+}
+.Learn p, .Learn h2{
+    position: relative;
+    left: 5%;
+}
+
+.Current{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 2%;
+    left: 5%;
+    height: 52%;
+    width: 100%;
+    color: white;
+    background-color: #2F3CED;
+    border: 1px solid teal;
+    border-radius: 30px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 
+                0 10px 0 -5px rgb(222, 248, 248), 
+                0 10px 1px -4px rgba(0, 0, 0, 0.15), 
+                0 20px 0 -10px #AFD5FF, 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+
+
+}
+.Course{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Poppins';
+    width: 32%;
+
+}
+.Course button{
+    background-color: black;
+    padding: 7px 0px;
+    color: white;
+    width: 70%;
+    border-radius: 10px;
+
+}
+
+.Path-Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.Box{
+    background-color: #AFD5FF;
+    height: fit-content;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 28%;
+}

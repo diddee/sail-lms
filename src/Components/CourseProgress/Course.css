@@ -1,0 +1,12 @@
+.CourseProgress{
+    background-color: #F5FBFF;
+    width: 30%;
+    display: flex;
+    margin-left: 4rem;
+}
+.CourseProgress .Nav{
+    display: flex;
+    flex-direction: column;
+}
+
+
