@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 50%;
+    width: 45%;
     height: 100vh;
     top: 3%;
     font: 'Poppins';
 
 }
-.Learn p, .Learn h2{
+.Learn p, .Learn h3{
     position: relative;
     left: 5%;
 }
@@ -19,11 +19,11 @@
     position: relative;
     top: 2%;
     left: 5%;
-    height: 52%;
+    height: 50%;
     width: 100%;
     color: white;
     background-color: #2F3CED;
-    border: 1px solid teal;
+    border: none;
     border-radius: 30px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 
                 0 10px 0 -5px rgb(222, 248, 248), 
@@ -50,30 +50,51 @@
 }
 
 .Path-Box{
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 32%;
+    background-color: #F5FBFF;
+    /* justify-content: space-around; */
+    /* align-items: center; */
     width: 100%;
+    margin-top: 2rem;
+    padding-right: 4rem;
 }
 
-
+.header-title{
+    margin-left: 5%;
+}
 .box-container{
+    position: relative;
     display: flex;
-    justify-content: space-around;
-    height: 30%;
+    justify-content: space-between;
+    height: 63%;
     width: 100%;
-    padding-left: 40px;
+    padding-left: 30px;
+    margin-top: 1rem;
 }
 
 .Box{
-    background-color: #AFD5FF;
-    height: fit-content;
+    background-color: white;
+    height: 100%;
     padding: 10px 5px;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    border-radius: 5px;
+    /* align-items: flex-start; */
+    border-radius: 15px;
     flex-direction: column;
-    width: 28%;
+    width: 25%;
+}
+.Box h5{
+    margin: 0 0 .5rem.5rem;
+}
+.Box div{
+    margin-top: 1.3rem;
+}
+.Box p{
+    font-size: small;
+    width: 60%;
+}
+.Box img{
+    width: 30%;
 }

@@ -11,27 +11,27 @@ function Nav() {
     <div className='Nav'>
           <h2>Elearn.</h2>
           <div className='Navlist'>
-            <FaHome/>
+            <div className='Icon'><FaHome/></div>
             <a href=''>Home</a>
           </div>
           <div className='Navlist'>
-            <GrSchedules/> 
+            <div className='Icon'><GrSchedules/> </div>
             <a href=''>My Courses</a>
           </div>
           <div className='Navlist'>
-            <GrFavorite/>
+            <div className='Icon'><GrFavorite/></div>
             <a href=''>Favorite</a>
           </div>
           <div className='Navlist'>
-            <IoNewspaperOutline/>
+            <div className='Icon'><IoNewspaperOutline/></div>
             <a href=''>Test</a>
           </div>
           <div className='Navlist'>
-            <GrCertificate/>
+            <div className='Icon'><GrCertificate/></div>
             <a href=''>Certificate</a>
           </div>
           <div className='Navlist'>
-            <FiSettings/>
+            <div className='Icon'><FiSettings/></div>
             <a href=''>Settings</a>
           </div> 
           <div className='user'>

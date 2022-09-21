@@ -1,13 +1,15 @@
 import React from 'react'
 import './Learn.css'
 import img from '../../assets/images_8.png'
+import users from '../../assets/people.png'
+
 // import Path from '../LearningPath/Path'
 
 function Learn() {
   return (
     <div className='Learn'>
       <p>Hi, Dee</p>
-      <h2>What will you learn today?</h2>
+      <h3>What will you learn today?</h3>
       <div className='Current'>
         <img src={img} />
         <div className='Course'>
@@ -20,24 +22,33 @@ function Learn() {
 
       
       <div className='Path-Box'>  
-      <div className='header-title'>
-        <h3>Your learning path</h3>
+        <div className='header-title'>
+          <h4>Your learning path</h4>
         </div>
         <div className='box-container'>
         <div className='Box'>
-            <h4>Intro to React</h4>
-            <p>12 hours of video tutorials <br/> 413 Students </p>
-            <img src=''/>
+            <h5>Intro to React</h5>
+            <p>12 hours of video tutorials</p>
+            <div>
+            <p>271 Students</p>
+            <img src={users}/>
+            </div>
           </div>
           <div className='Box'>
-            <h4>Intro to React</h4>
-            <p>12 hours of video tutorials <br/> 413 Students </p>
-            <img src=''/>
+            <h5>Intro to React</h5>
+            <p>12 hours of video tutorials</p>
+            <div>
+              <p>513 Students</p>
+              <img src={users}/>
+            </div>
           </div>
           <div className='Box'>
-            <h4>Intro to React</h4>
-            <p>12 hours of video tutorials <br/>413 Students </p>
-            <img src=''/>
+            <h5>Intro to React</h5>
+            <p>12 hours of video tutorials</p>
+            <div>
+              <p>468 Students</p>
+              <img src={users}/>
+            </div>
           </div>
         </div>
         

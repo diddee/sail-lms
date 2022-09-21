@@ -4,12 +4,14 @@
 import Learn from './Components/Learn/Learn' 
 // import Path from './Components/LearningPath/Path'
 import Nav from './Components/Nav/Nav';
+import Progress from './Components/CourseProgress/Course';
 
 function App() {
   return (
     <div className="App">
       <Nav/>
       <Learn/>
+      <Progress/>
     </div>
   )
 }
