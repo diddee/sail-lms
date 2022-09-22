@@ -4,7 +4,7 @@
     position: relative;
     width: 45%;
     height: 100vh;
-    top: 3%;
+    top: 2%;
     font: 'Poppins';
 
 }
@@ -42,7 +42,8 @@
 }
 .Course button{
     background-color: black;
-    padding: 7px 0px;
+    padding: 8px 5px;
+    margin-left: 5%;
     color: white;
     width: 70%;
     border-radius: 10px;
@@ -53,7 +54,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 32%;
+    height: 41%;
     background-color: #F5FBFF;
     /* justify-content: space-around; */
     /* align-items: center; */
@@ -77,7 +78,7 @@
 
 .Box{
     background-color: white;
-    height: 100%;
+    height: 95%;
     padding: 10px 5px;
     display: flex;
     /* align-items: flex-start; */

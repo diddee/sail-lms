@@ -4,6 +4,10 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #F5FBFF;
+    
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
     font-size: 'Poppins';
     border-right: .1px solid rgb(0, 0, 0, 0.1);
 }
@@ -11,6 +15,7 @@
     position: relative;
     left: 10%;
     margin: 2rem 0;
+    color: black;
 }
 .Navlist{
     display: flex;
@@ -19,11 +24,13 @@
     width:100%;
     left: 10%;
     margin: .6rem 0;
+    color: black;
 
 }
-.Navlist :hover{
+.Nav .Navlist :hover{
     background-color: #2F3CED;
 }
+
 .Navlist .Icon{
     margin-top: 4px;
 }
@@ -31,9 +38,10 @@
     text-decoration: none;
     color: black;
     font-size: large;
-    padding: 1% 15%;
+    padding: 0 15%;
     border-bottom-right-radius: 7px;
     border-top-right-radius: 7px;
+    
 
     /* margin-left: 10%; */
 }

@@ -58,11 +58,13 @@
     position: relative;
     width:50%;
     height: 100%;
+    
     background: #FFFFFF;
   }
 .Right .Header .head{
     position: relative;
     left: 20%;
+    top: 10%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -74,6 +76,7 @@
 .Login .Right p{
     position: relative;
     left: 20%;
+    margin-top: 20px;
     height: 20px;
     /* text-align: center; */
     font-family: 'Poppins';
@@ -133,7 +136,7 @@
 .Right .user .line2{
     position: absolute;
     width: 8%;
-    left: 30%;
+    left: 33%;
     top: 35%;
     border: 1px solid #D3D7DF;
   }
@@ -197,6 +200,17 @@
       width:100%;
       height: 100%;
       background: #FFFFFF;
+    }
+
+    .Right .Header .head{
+      position: relative;
+      left: 20%;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: xx-large;
+      color: #000000;
+    
     }
     /* .Wrapper .left{
       
