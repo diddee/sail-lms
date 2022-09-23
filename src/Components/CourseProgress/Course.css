@@ -16,7 +16,9 @@
     margin: 1.5rem;
 }
 .CourseProgress .Search{
-    /* margin: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .CourseProgress .Bell{
     width: 8%;

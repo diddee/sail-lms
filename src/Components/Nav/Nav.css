@@ -41,7 +41,7 @@
     padding: 0 15%;
     border-bottom-right-radius: 7px;
     border-top-right-radius: 7px;
-    
+    cursor: pointer;
 
     /* margin-left: 10%; */
 }

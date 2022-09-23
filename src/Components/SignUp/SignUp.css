@@ -1,0 +1,34 @@
+.SignUp{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SignUp form{
+    position: relative;
+    width: 30%;
+    height: 65%;
+    border: 30px;
+}
+.SignUp-Input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+
+
+
+}
+.SignUp-Input input{
+    position: relative;
+    width: 75%;
+    height: 8%;
+    border-radius: 50px;
+    /* border: none;
+    outline: none; */
+}

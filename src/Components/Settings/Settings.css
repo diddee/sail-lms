@@ -1,0 +1,122 @@
+.SettingsPort{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.Settings{
+    position: relative;
+    width: calc(100% - 20%);
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    left: 2%;
+
+}
+.SettingsNav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    height: 5%;
+    font-size: large;
+    font-weight: 500;
+}
+.Profile{
+    position: relative;
+    display: flex;
+    width: 15%;
+    height: 20%;
+    top: 4%;
+    flex-direction: column;
+    font-weight: 500;
+    
+}
+.Photo{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    top: 10%;
+    border-radius: 24px;
+    border-style: dashed;
+}
+.Image{
+    font-size: xx-large;
+}
+.Upload{
+    width: 80%;
+    text-align: center;
+    font-weight: 400;
+}
+.Form{
+    position: relative;
+    top: 13%;
+    display: flex;
+    flex-direction: column;
+}
+.Form form{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.FormInput{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    margin-bottom: 1%;
+}
+.FormInput label{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.FormInput input{
+    position: relative;
+    border-radius: 5px;
+    height: 100%;
+    padding: 12px 10px;
+    background-color: #f5f6f8;
+    border: none;
+    outline: none;
+}
+.FormInput textarea{
+    margin-bottom: 2%;
+    background-color: #f5f6f8;
+    font-size: large;
+    border: none;
+    outline: none;
+
+
+}
+.Button button{
+    position: relative;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+}
+.Button .Update{
+    background-color: #2F3CED;
+    padding: 5px;
+    margin-right: 20px;
+    
+}
+.Button .Reset{
+    background-color: #f5f6f8;
+    padding: 5px 15px;
+
+}
+.Form a{
+    color: red;
+    position: relative;
+    top: 2%;
+    text-decoration: none;
+}
