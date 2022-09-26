@@ -1,34 +1,118 @@
 .SignUp{
+    display: flex;
+    position: relative;
     width: 100%;
     height: 100vh;
+
+}
+
+.left{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    font-family: 'Poppins';
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* justify-content: space-between; */
+    background: #F4F4F4;  
 }
-.SignUp form{
+
+.left h3{
     position: relative;
-    width: 30%;
-    height: 65%;
-    border: 30px;
+    width: 90%;
+    font-weight: 900;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    line-height: 25px;
+    color: #3B4350;
+    margin-top: 15%;
 }
-.SignUp-Input{
+
+.left p{
+    position: relative;
+    left: 9%;
+    /* top: 25%; */
+    width: 90%;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: medium;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #898D93;
+  }
+.left img{
+    margin-top: 12%;
+    width: 70%;
+  }
+.right{
+    width: 50%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.right .top{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right .top h2{
+    position: relative;
+    left: 24%;
+}
+.right .top p{
+    position: relative;
+    top: 10%;
+    left: 75%;
+}
+.top a{
+    text-decoration: none;
+    color: rgb(212, 92, 112);
+
+}
+.right form{
+    position: relative;
+    width: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border: 1px solid black;
-
-
 
 }
-.SignUp-Input input{
+.InputField{
+    display: flex;
+    width: 50%;
     position: relative;
-    width: 75%;
-    height: 8%;
-    border-radius: 50px;
-    /* border: none;
-    outline: none; */
+    flex-direction: column;
+    justify-content: space-around;
+}
+.InputField label{
+    font-weight: 500;
+    margin: 1% 0;
+}
+.InputField input{
+    border: none;
+    outline: none;
+    border-radius:5px;
+    padding: 10px;
+    background-color: #f5f6f8;
+}
+form button{
+    position: relative;
+    width: 30%;
+    margin-top: 5%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: rgb(212, 92, 112);
 }

@@ -1,17 +1,19 @@
-
-
-
-
 import './App.css'
 import React from 'react'
+// import { Routes ,Route } from 'react-router-dom';
+// import Home from './Components/Home/Home'
+// import Nav from './Components/Nav/Nav'vxzxatsdgzcxh
 // import DashBoard from './Components/DashBoard/DashBoard'
-// import Settings from './Components/Settings/Settings'
-import SignUp from './Components/SignUp/SignUp'
+// import Home from './Components/Home/Home'
+// import DashBoard from './Components/DashBoard/DashBoard'
+import Settings from './Components/Settings/Settings'
+// import SignUp from './Components/SignUp/SignUp'
 
 function App() {
   return (
     <div>
-      <SignUp/>
+      <Settings/>
+      
     </div>
   )
 }
@@ -24,7 +26,11 @@ export default App
 
 
 
+/* <Routes>
+        <Route exact path='/Home' element={<Home/>}></Route>
+        <Route exact path='/Settings' element={<Settings/>}></Route>
 
+      </Routes> */
 
 
 
