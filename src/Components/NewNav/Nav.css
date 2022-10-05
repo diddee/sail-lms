@@ -35,22 +35,22 @@
     display: flex;
     justify-content: center;
 }
-ul{
+.links ul{
     list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 
 }
-li{
+.links li{
     padding: 0.7rem 1.2rem;
     border-radius: 8px;
 }
-li:hover{
+.links li:hover{
     background-color: #2F3CED;
     color: white;
 }
-li a{
+.links li a{
     text-decoration: none;
     display: flex;
     font-family: 'Poppins';
@@ -59,13 +59,13 @@ li a{
     font-weight: 600;
     color: black;
 }
-li a:hover{
+.links li a:hover{
     color: white;
 }
-.active{
+.links .active{
     background-color: #2F3CED;
 }
-.active a{
+.links .active a{
     color: white;
 }
 .Nav .user{

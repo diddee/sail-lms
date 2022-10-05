@@ -1,17 +1,26 @@
 import './Settings.css'
-import React from 'react'
-import Nav from '../Nav/Nav'
+import React, { useState } from 'react'
+
+// import Nav from '../Nav/Nav'
 import {CgProfile} from 'react-icons/cg'
 
+
 function Settings() {
+
+  const [currentNav, setCurrentNav] = useState(1)
+
   return (
     <div className='SettingsPort'>
-      <Nav/>
       <div className='Settings'>
-        <div className='SettingsNav'>
-            <div>Profile</div>
-            <div>Login and Security</div>
-
+        <div className='MinNav'>
+            <ul>
+                <li onClick={() => setCurrentNav(1)} className={currentNav === 1 ? 'active' : ''}>
+                    <a href="">Profile</a>
+                </li>
+                <li onClick={() => setCurrentNav(2)} className={currentNav === 2 ? 'active' : ''}>
+                    <a href="">Login and Security</a>
+                </li>
+            </ul>
 
         </div>
         <div className='Profile'>

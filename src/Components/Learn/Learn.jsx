@@ -1,11 +1,12 @@
-import React from 'react'
 import './Learn.css'
 import img from '../../assets/images_8.png'
 import users from '../../assets/people.png'
 
 function Learn() {
+
   return (
     <div className='Learn'>
+      
       <p>Hi, Dee</p>
       <h3>What will you learn today?</h3>
       <div className='Current'>

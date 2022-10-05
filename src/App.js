@@ -5,15 +5,15 @@ import React from 'react'
 // import Nav from './Components/Nav/Nav'vxzxatsdgzcxh
 // import DashBoard from './Components/DashBoard/DashBoard'
 // import Home from './Components/Home/Home'
-import DashBoard from './Components/DashBoard/DashBoard'
+// import DashBoard from './Components/DashBoard/DashBoard'
 // import Settings from './Components/Settings/Settings'
 // import Nav from './Components/NewNav/Nav'
-// import SignUp from './Components/SignUp/SignUp'
+import SignUp from './Components/SignUp/SignUp'
 
 function App() {
   return (
     <div className='App'>
-      <DashBoard/>
+      <SignUp />
     </div>
   )
 }
@@ -21,6 +21,11 @@ function App() {
 export default App
 
 
+{/* <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Settings" element={<Settings />} />
+      </Routes> */}
 
 
 

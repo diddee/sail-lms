@@ -17,9 +17,9 @@ function Progress() {
     <div className='CourseProgress'>
 
         <nav>
-            <div id='Search'>
+            <div className='Search'>
                 <span className='SearchIcon'><BiSearch/></span>
-                Search
+                <input type="text" placeholder='Search...'/>
             </div>
             <div className='Bell'><BsBell/></div>
 
