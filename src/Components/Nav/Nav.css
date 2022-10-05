@@ -1,9 +1,11 @@
 .Nav{
     position: relative;
-    width: 16%;
+    width: 18vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     background-color: #F5FBFF;
     
     border-bottom-right-radius: 20px;
