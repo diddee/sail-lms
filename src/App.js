@@ -8,12 +8,13 @@ import React from 'react'
 // import DashBoard from './Components/DashBoard/DashBoard'
 // import Settings from './Components/Settings/Settings'
 // import Nav from './Components/NewNav/Nav'
-import SignUp from './Components/SignUp/SignUp'
+// import SignUp from './Components/SignUp/SignUp'
+import Nav from './Components/LandindPage/NavBar'
 
 function App() {
   return (
     <div className='App'>
-      <SignUp />
+      <Nav />
     </div>
   )
 }
@@ -21,11 +22,6 @@ function App() {
 export default App
 
 
-{/* <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Settings" element={<Settings />} />
-      </Routes> */}
 
 
 
