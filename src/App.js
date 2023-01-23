@@ -1,20 +1,22 @@
 import './App.css'
 import React from 'react'
-// import { Routes ,Route } from 'react-router-dom';
-// import Home from './Components/Home/Home'
-// import Nav from './Components/Nav/Nav'vxzxatsdgzcxh
-// import DashBoard from './Components/DashBoard/DashBoard'
-// import Home from './Components/Home/Home'
-// import DashBoard from './Components/DashBoard/DashBoard'
-// import Settings from './Components/Settings/Settings'
-// import Nav from './Components/NewNav/Nav'
-// import SignUp from './Components/SignUp/SignUp'
+import {Routes, Route} from 'react-router-dom'
+import Home from './Components/LandindPage/Home'
 import Nav from './Components/LandindPage/NavBar'
 
 function App() {
   return (
     <div className='App'>
-      <Nav />
+        <Nav/>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          {/* <Route path='/login' element={<Login/>}/> */}
+          {/* <Route path='/signup' element={<SignUp/>}/> */}
+          {/* <Route path='/about' element={<About/>}/> */}
+          {/* <Route path='/dashboard' element={<Dashboard/>}/>  */}
+          {/* <Route path='/forgot' element={<Reset/>}/> */}
+
+        </Routes>
     </div>
   )
 }

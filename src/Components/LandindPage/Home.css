@@ -27,7 +27,7 @@ ul {
     justify-content: space-around;
 }
 .nav-container{
-    margin-left: 10%;
+    margin-left: 25%;
 }
 li{
     
@@ -50,11 +50,11 @@ li{
 }
 .main-header{
     font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 82px;
-line-height: 112px;
-color: #FF389A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 112px;
+    color: #FF389A;
     padding: 10px;
     margin-top: 7%;
 }
@@ -72,20 +72,20 @@ color: #FF389A;
     margin-left: 1%;
 }
 .startbtn{
-position: absolute;
-width: 151px;
-height: 48px;
-background: linear-gradient(79.75deg, #4E98EF 10.79%, #D381FA 95.14%);
-border-radius: 14px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-border: 1px solid #4E98EF;
-color: white;
-margin-left: 1%;
-cursor: pointer;
+    position: absolute;
+    width: 151px;
+    height: 48px;
+    background: linear-gradient(79.75deg, #4E98EF 10.79%, #D381FA 95.14%);
+    border-radius: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #4E98EF;
+    color: white;
+    margin-left: 1%;
+    cursor: pointer;
 }
 .startbtn:before {
     content: '';
@@ -133,30 +133,30 @@ cursor: pointer;
 }
 .vector{
     position: absolute;
-width: 171.71px;
-height: 111.32px;
-left: 842.6px;
-bottom: 439.49px;
+    width: 171.71px;
+    height: 111.32px;
+    left: 842.6px;
+    bottom: 439.49px;
 }
 .vector2{
     position: absolute;
-width: 290.57px;
-height: 70.71px;
-left: 840.86px;
-top: 800.5px;
+    width: 290.57px;
+    height: 70.71px;
+    left: 840.86px;
+    top: 800.5px;
 }
 .group{
     position: absolute;
-width: 417.91px;
-height: 525px;
-left: 810.26px;
-top: 276.5px;
+    width: 417.91px;
+    height: 525px;
+    left: 810.26px;
+    top: 276.5px;   
 
 }
 .vector1{
     position: absolute;
-width: 77.11px;
-height: 74.5px;
-left: 728.26px;
-top: 480.5px;
+    width: 77.11px;
+    height: 74.5px;
+    left: 728.26px;
+    top: 480.5px;
 }
