@@ -16,6 +16,7 @@ body{
     font-family: 'Uncial Antiqua', cursive;
     color: #9FC9F3;
     margin-right: 30px;
+    font-size: 2.3rem;
 }
 .tac{
     color: #A460ED;
@@ -27,7 +28,7 @@ ul {
     justify-content: space-around;
 }
 .nav-container{
-    margin-left: 25%;
+    margin-left: 35%;
 }
 li{
     
