@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './SignUp.css'
 import img from '../../assets/img1.png'
 
