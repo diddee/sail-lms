@@ -5,6 +5,10 @@ import {BiShow} from 'react-icons/bi'
 import {FcGoogle} from 'react-icons/fc'
 import log from '../../assets/log.png'
 import {toast} from 'react-toastify'
+import {auth} from '../../config/firebase'
+import {  signInWithEmailAndPassword } from 'firebase/auth'
+
+
 import './Login.css'
 
 function Login() {
@@ -28,28 +32,28 @@ const onChange = (e)=>{
     [e.target.id]:e.target.value,
   }))
 }
-const onSubmit = async (e)=>{
-  e.preventDefault()
+// const onSubmit = async (e)=>{
+//   e.preventDefault()
 
-  try {
-    const userCredential = await createUserWithEmailAndPassword(
-      auth, email, password
-    )
+//   try {
+//     const userCredential = await createUserWithEmailAndPassword(
+//       auth, email, password
+//     )
    
-    const user= userCredential.user
-    await set(ref(db), {
-      user
-    })
+//     const user= userCredential.user
+//     await set(ref(db), {
+//       user
+//     })
     
    
-    navigate('/login')
-  } 
-  catch (error) {
-    console.log(error);
-    toast.error('something went wrong');
-    toast.error(error.message)
-  }
-}
+//     navigate('/login')
+//   } 
+//   catch (error) {
+//     console.log(error);
+//     toast.error('something went wrong');
+//     toast.error(error.message)
+//   }
+// }
 
   return (
     <div className='Login'>
@@ -72,7 +76,7 @@ const onSubmit = async (e)=>{
           login for external user
           <div className='line2'></div>
         </div>
-        <form action="POST" onSubmit={onSubmit} >
+        <form action="POST" >
           <label htmlFor="email" className='email-label'>Username or Email</label>
           <input type="email" className="email" 
             placeholder='email' id='email' 
